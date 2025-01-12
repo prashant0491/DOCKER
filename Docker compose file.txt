@@ -9,7 +9,7 @@ services:
            networks:
                 - mynet
            environments:
-                - MYSQL_ROOT_PASSWORD=Pass@123
+                - MYSQL_ROOT_PASSWORD=Pass@1234
                 - MYSQL_DATABASE=wordpressdb
 
         website:
